@@ -100,4 +100,44 @@ console.log(lastElement);
 
 
 
+let lastAirBender = zero[0];
+console.log(lastAirBender);
+
+
+
+let ageArray = [3, 9, 23, 64, 2, 8, 28, 93];
+let finale = ageArray[ageArray.length - 1];
+console.log(finale);
+let finale2 = ageArray[0];
+console.log(finale2);
+
+let finale3 = [finale, finale2];
+console.log(finale - finale2);
+
+ageArray.push(6);
+console.log(ageArray);
+
+let finale4 =ageArray[ageArray.length -1];
+console.log(finale4);
+
+let finale5 = [finale2, finale4];
+console.log(finale2 - finale4);
+
+let sumi = 0
+
+for (let i = 0; i <ageArray.length; i++){
+sumi += ageArray[i];
+}
+console.log(sumi);
+
+let sus = sumi / ageArray.length;
+console.log(sus);
+
+
+
+
+
+
+
+
 
