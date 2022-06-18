@@ -135,6 +135,17 @@ console.log(sus);
 
 
 
+function sock(word, n) {
+    let sock = "";
+        for (let i = 0; i < n; i++) {
+            sock += word;
+        }
+    return sock;
+}
+console.log(sock("hey", 4));
+
+
+
 
 
 
